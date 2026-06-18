@@ -74,14 +74,14 @@
 <body>
      
      <?php
-          $product_name = $_POST["product_name"];
+          $celsius = $_POST["celsius"];
           
 
-          echo "เซลเซียส : " . $product_name . "<br>";
+          echo "เซลเซียส : " . $celsius . "<br>";
           
 
-          $change = ($product_name+273.15)*9/5;
-          echo "แรงคิน : " . $change . "<br>";
+          $Rankine = ($celsius+273.15)*9/5;
+          echo "แรงคิน : " . $Rankine . "<br>";
 
      ?>
 

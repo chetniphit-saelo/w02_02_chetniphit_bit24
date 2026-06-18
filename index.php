@@ -94,7 +94,7 @@
 
      <form action="result.php" method="post">
           <label for="">เซลเซียส</label>
-          <input type="text" name="product_name"> <br>
+          <input type="text" name="celsius"> <br>
 
 
 
